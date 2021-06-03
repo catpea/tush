@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "tush",
+  "version": "1.0.0",
+  "description": "Tush Shell",
+  "main": "index.js",
+  "bin": {
+    "tush": "./index.js"
+  },
+  "scripts": {
+    "bork": "git add .; git commit -m 'New Release'; git push; npm publish; git push;",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/tush.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/tush/issues"
+  },
+  "homepage": "https://github.com/catpea/tush#readme",
+  "dependencies": {
+    "bashscript": "^2.0.25"
+  }
+}
