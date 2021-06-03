@@ -1,5 +1,5 @@
 # tush
-Tush Shell
+Tush Shell :full_moon::shell:
 
 See [bashscript](https://github.com/catpea/bashscript) for command reference.
 
